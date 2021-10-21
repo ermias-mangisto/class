@@ -1,0 +1,64 @@
+#divHolder{
+    display: flex;
+    width: 100%;
+}
+#divHolder h5{
+    margin: none;
+    padding: none;
+ text-align: center;
+ font-size: larger;
+ text-decoration-line: underline;
+}
+#avi,#dave,#haim{
+width: 30%;
+background-color:darksalmon;
+height: 300px;
+border: 1px solid black;
+margin: auto;
+border-radius: 10%;
+ transition: 1s;
+}
+#avi:hover{
+    width: 33%;
+    height: 330px;
+    border: 3px solid black;
+ 
+}
+#dave:hover{
+    width: 33%;
+    height: 330px;
+    border: 3px solid black;
+}
+#haim:hover{
+    width: 33%;
+    height: 330px;
+    border: 3px solid black;
+
+}
+#myForm{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+#myForm input{
+   margin: 2px;
+}
+#addBtn{
+    margin-top: 2px;
+}
+#holder{
+    border: 1px solid black;
+}
+#holder tr{
+    width: 100%;
+    border: 1px solid black;
+}
+#holder th{
+    width: 100px;
+    border: 1px solid black;
+}
+#holder td{
+    width: 100px;
+    border: 1px solid black;
+    
+}
